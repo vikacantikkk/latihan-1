@@ -1,0 +1,44 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.kartu {
+  padding: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.kartu h3 {
+  margin: 0 0 6px;
+}
+
+.kartu p {
+  margin: 0 0 12px;
+  color: #555;
+}
+
+.lencana {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 15px;
+  background-color: #d9f5e4;
+  color: #176b3a;
+  font-size: 12px;
+}
+
+.lencana.off {
+  background-color: #eee;
+  color: #666;
+}
